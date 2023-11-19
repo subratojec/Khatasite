@@ -1,0 +1,119 @@
+*{
+    margin: 13;
+    padding: 0;
+     box-sizing: border-box;
+     font-family: "Poppins",sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: hsla(252, 39%, 47%, 1);
+    background: linear-gradient(0deg, hsla(252, 39%, 47%, 1) 0%, hsla(203, 51%, 14%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(252, 39%, 47%, 1) 0%, hsla(203, 51%, 14%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(252, 39%, 47%, 1) 0%, hsla(203, 51%, 14%, 1) 100%);
+     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5C49A8", endColorstr="#122937", GradientType=1 );
+  }
+    
+  img{
+    position: relative;
+    margin-left: -20px;
+    width: 100%;
+    height: 100%;
+    
+}
+  
+
+
+  .wrapper{
+    width:500px;
+    background: #fff ;
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px ;
+    float: right;
+    position: absolute;
+
+}
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50;
+  margin: 30px 0;
+}
+
+
+  
+  .wrapper h1 {
+    font-family: 'Charmonman', cursive;
+    padding-bottom: 5px;
+    text-align: center;
+    border-bottom: 2px solid #5655a8;
+    border-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .wrapper label { display: block;
+    margin-top: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  }
+  
+  .input-box {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-radius: 40px;
+    border: 2px solid #2A2A59;
+    outline: none !important;
+    font-size: 16px;
+    color:  rgb(65, 61, 61);
+    padding: 20px 45px 20px 20px;
+
+  }
+
+  .input-box i {
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+  .input-box input::placeholder{
+    color: black;
+   }
+
+   .wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: hsla(252, 39%, 47%, 1);
+    background: linear-gradient(0deg, hsla(252, 39%, 47%, 1) 0%, hsla(203, 51%, 14%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(252, 39%, 47%, 1) 0%, hsla(203, 51%, 14%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(252, 39%, 47%, 1) 0%, hsla(203, 51%, 14%, 1) 100%);
+     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5C49A8", endColorstr="#122937", GradientType=1 );
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+  
+  
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }

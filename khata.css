@@ -1,0 +1,128 @@
+body {
+    background: hsla(252, 39%, 47%, 1);
+
+    background: linear-gradient(0deg, hsla(252, 39%, 47%, 1) 0%, hsla(203, 51%, 14%, 1) 100%);
+    
+    background: -moz-linear-gradient(0deg, hsla(252, 39%, 47%, 1) 0%, hsla(203, 51%, 14%, 1) 100%);
+    
+    background: -webkit-linear-gradient(0deg, hsla(252, 39%, 47%, 1) 0%, hsla(203, 51%, 14%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5C49A8", endColorstr="#122937", GradientType=1 );
+  }
+  
+  #container {
+    display: flex;
+  }
+  
+  #home_page_section1 {
+    width: 50%;
+    height: 50%;
+    margin-top: 150px;
+    margin-left: 50px;
+  
+  }
+  
+  #home_page_section2 {
+    margin-top: 120px;
+    height: 50%;
+    width: 50%;
+    float: right;
+  }
+  
+  #photo {
+    width: 600px;
+    height: 500px;
+  }
+  
+  #line {
+    height: 100px;
+    width: 200px;
+    margin-left: 250px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  .h1 {
+    font-family: 'Charmonman', cursive;
+    color: whitesmoke;
+    margin-top: 0px;
+    margin-left: 140px;
+    margin-bottom: 0px;
+    font-size: 100px;
+    display: center;
+    font-weight: 22px;
+  
+  
+  }
+  
+  .button {
+    background-color: grey;
+    border: 3px dotted navajowhite;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 270px;
+    font-size: 32px;
+  }
+  
+  .button:hover {
+    border: 1px solid #8c8c82;
+    background-color: #8c8c82;
+    color: #f4f1ec;
+    transition: 0.1s;
+  }
+  
+  .button_link {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .button_link:hover {
+    color: #f4f1ec;
+    text-decoration: none;
+  }
+
+  #kharcha{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width:750px) {
+    #container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #home_page_section1,
+    #home_page_section2 {
+      width: 100%;
+    }
+  
+    #tree {
+      margin-left: 0;
+      align-self: center;
+    }
+  
+    .h1,
+    .h2,
+    .h2_2,
+    .p1,
+    #button {
+      margin-left: 0;
+      margin-right: 0;
+      align-items: center;
+    }
+  
+    #photo {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+  }
+
+  #footer{
+    position: absolute;
+    justify-content: center;
+  }
